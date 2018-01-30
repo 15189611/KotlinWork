@@ -4,6 +4,7 @@ fun main(args: Array<String>) {
     val transform = transform("Red")
     println(transform)
     transform2("Green")
+    println(hasPrefix("prefix-222"))
 }
 
 fun transform(color: String): Int {
@@ -22,6 +23,11 @@ fun transform2(color: String) {
         "Blue" -> println("是Blue")
         else -> throw IllegalArgumentException("Invalid color param value")
     }
+}
+
+fun hasPrefix(x: Any) = when(x) {
+    is String -> x.startsWith("prefix")
+    else -> false
 }
 
 

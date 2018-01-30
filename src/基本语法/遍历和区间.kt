@@ -22,13 +22,34 @@ fun main(args: Array<String>) {
 
     //倒序遍历，从10 到 1
     for (list in 10 downTo 1) {
-        println(list)
+        //  println(list)
     }
+
+    //通过索引遍历一个数组
+    //foreachIndex(lists)
+
+    //通过索引遍历 传递是区间
+    foreachIndexRange(2..300)
 }
 
 private fun foreachShow(arrayLists: List<Int>) {
     for (list in arrayLists) {
         println(list)
+    }
+}
+
+//通过索引遍历一个数组
+fun foreachIndex(array: List<Int>) {
+    for (i in array.indices) {
+        println(array[i])
+    }
+}
+
+//注意上面这种“在区间上遍历”会编译成优化的实现而不会创建额外对象。 或者你可以用库函数 withIndex：
+
+fun foreachIndexRange(array: IntRange) {
+    for ((index, value) in array.withIndex()) {
+        println("the element at $index is $value")
     }
 }
 

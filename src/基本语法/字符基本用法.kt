@@ -1,7 +1,7 @@
 package 基本语法
 
 fun main(args: Array<String>) {
-    //test()
+    test()
     //字符转换
     println(decimalDigitValue('0'))
     println(methodString())
