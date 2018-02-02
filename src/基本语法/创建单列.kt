@@ -6,3 +6,19 @@ package 基本语法
 object Single {
     val name = "Charles"
 }
+
+//使用companion object
+
+class AnotherSingle private constructor(){
+
+    companion object {
+        fun newInstance(): AnotherSingle {
+            return Inner.another
+        }
+    }
+
+    private object Inner {
+        val another = AnotherSingle()
+    }
+
+}
