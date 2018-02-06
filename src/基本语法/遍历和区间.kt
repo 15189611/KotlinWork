@@ -30,6 +30,13 @@ fun main(args: Array<String>) {
 
     //通过索引遍历 传递是区间
     foreachIndexRange(2..300)
+
+    //老式java遍历
+    for (i in 0 until lists.size) {
+        println(i)
+        val get = lists[i]
+        println(get)
+    }
 }
 
 private fun foreachShow(arrayLists: List<Int>) {
