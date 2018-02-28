@@ -20,6 +20,11 @@ fun main(args: Array<String>) {
         //   println(list)
     }
 
+    //无效遍历区间
+    for (i in 4..1) {
+        print(i) // 什么都不输出
+    }
+
     //倒序遍历，从10 到 1
     for (list in 10 downTo 1) {
         //  println(list)
@@ -37,6 +42,7 @@ fun main(args: Array<String>) {
         val get = lists[i]
         println(get)
     }
+
 }
 
 private fun foreachShow(arrayLists: List<Int>) {
