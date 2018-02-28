@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b83a1eee-175d-4bcf-8713-3e45e22321fe" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/基本语法/属性引用符.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/基本语法/比较操作符.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/基本语法/解构声明.kt" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlinWork/META-INF/kotlinWork.kotlin_module" afterPath="$PROJECT_DIR$/out/production/kotlinWork/META-INF/kotlinWork.kotlin_module" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlinWork/基本语法/AnotherSingle$Companion.class" afterPath="$PROJECT_DIR$/out/production/kotlinWork/基本语法/AnotherSingle$Companion.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlinWork/基本语法/AnotherSingle$Inner.class" afterPath="$PROJECT_DIR$/out/production/kotlinWork/基本语法/AnotherSingle$Inner.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlinWork/基本语法/AnotherSingle.class" afterPath="$PROJECT_DIR$/out/production/kotlinWork/基本语法/AnotherSingle.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlinWork/基本语法/遍历和区间Kt.class" afterPath="$PROJECT_DIR$/out/production/kotlinWork/基本语法/遍历和区间Kt.class" />
-      <change beforePath="$PROJECT_DIR$/src/基本语法/创建单列.kt" afterPath="$PROJECT_DIR$/src/基本语法/创建单列.kt" />
-      <change beforePath="$PROJECT_DIR$/src/基本语法/遍历和区间.kt" afterPath="$PROJECT_DIR$/src/基本语法/遍历和区间.kt" />
+      <change beforePath="$PROJECT_DIR$/src/基本语法/属性引用符.kt" afterPath="$PROJECT_DIR$/src/基本语法/属性引用符.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,8 +38,8 @@
       <file leaf-file-name="属性引用符.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/基本语法/属性引用符.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="38" column="34" lean-forward="true" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+            <state relative-caret-position="508">
+              <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -423,12 +414,12 @@
       <workItem from="1519453930217" duration="1327000" />
       <workItem from="1519611168346" duration="6286000" />
       <workItem from="1519714736557" duration="771000" />
-      <workItem from="1519783810287" duration="6179000" />
+      <workItem from="1519783810287" duration="6919000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59957000" />
+    <option name="totallyTimeSpent" value="60697000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -795,8 +786,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/基本语法/属性引用符.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="38" column="34" lean-forward="true" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+        <state relative-caret-position="508">
+          <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
           <folding />
         </state>
       </provider>

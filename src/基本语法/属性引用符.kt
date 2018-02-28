@@ -35,8 +35,8 @@ fun main(args: Array<String>) {
     println(strings.filter(numberRegex::matches)) // 输出“[124]”  过滤了不是数字的
 
     //属性引用也可以绑定：
-    val prop = "abc"::length
-    println(prop.get())   // 输出“3”
+    val prop2 = "abc"::length
+    println(prop2.get())   // 输出“3”
 
     //自 Kotlin 1.2 起，无需显式指定 this 作为接收者：this::foo 与 ::foo 是等价的。
 }
